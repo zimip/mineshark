@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "jef",
+  "version": "${version}",
+  "name": "Mineshark",
+  "description": "Utility mod aimed at catching inbound/outbound packets from the fabric network.",
+  "authors": [
+    "zimip"
+  ],
+  "license": "CC0-1.0",
+  "icon": "/Mineshark/logo.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "net.zimi.client.Mineshark"
+    ]
+  },
+  "mixins": [
+    {
+      "config": "mineshark.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=0.19.2",
+    "minecraft": "~26.1.2",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
