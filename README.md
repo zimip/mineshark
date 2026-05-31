@@ -1,4 +1,4 @@
-# Mineshark
+# 🦈 Mineshark
 
 Mineshark is a lightweight network analysis and utility mod built for the Fabric loader. It operates at a low level within the Netty network pipeline to intercept, log, and manipulate inbound and outbound network packets between the Minecraft client and server.
 
